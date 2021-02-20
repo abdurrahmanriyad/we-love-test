@@ -1,6 +1,8 @@
 <?php
 
-class UserModelTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+
+class UserModelTest extends TestCase
 {
     private $user;
 
