@@ -1,10 +1,12 @@
 <?php
 
-class UserModelTest extends \PHPUnit\Framework\TestCase {
+class UserModelTest extends \PHPUnit\Framework\TestCase
+{
     private $user;
+
     protected function setUp(): void
     {
-       $this->user =  new App\Models\User();
+        $this->user = new App\Models\User();
     }
 
     /** @test */
